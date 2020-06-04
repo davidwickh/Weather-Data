@@ -1,5 +1,8 @@
 from math import radians, cos, sin, asin, sqrt
 
+# This module finds the distance between two long and lat points
+# To use this, input the longitue and Latitude of the 
+
 def haversine(lon1, lat1, lon2, lat2):
     #convert degrees to radians
     lon1 = radians(lon1)

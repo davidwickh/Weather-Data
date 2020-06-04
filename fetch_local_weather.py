@@ -24,7 +24,9 @@ def find_closest():
 
 closest_stn = find_closest()
 
-weather = weather + str(closest_stn)
+print(closest_stn)
+
+weather = weather+str(closest_stn)
 
 my_weather = get(weather).json()['items']
 pprint(my_weather)
